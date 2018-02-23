@@ -1,5 +1,4 @@
-//插入排序
-//冒泡排序是插入排序的初级方式，这里的冒泡排序是优化的算法，可以减少对已排定元素的比较
+//冒泡排序
 public class BubbleSort
 {
 	public static void Sort(int[] arr)
@@ -20,7 +19,7 @@ public class BubbleSort
 		}
 	}
 }
-//为了减少数组访问次数，将交换元素改成将较大的元素向右移动
+////插入排序，为了减少数组访问次数，将交换元素改成将较大的元素向右移动
 public class Insertsort
 {
 	public static void sort(int[] arr)
